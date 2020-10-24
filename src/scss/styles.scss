@@ -6,7 +6,94 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+    
+    .topnav a {
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+        float:left;
+    }
+    
+    .topnav a:hover {
+        border-bottom: 1.5px solid;
+    }
+
+    .topnav a:active {
+        border-bottom: 1.5px solid;
+    }
+
+.jumbotron {
+    background-image: url("../img/pirate-ship.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top: 30px;
+
+    .display-4 {
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'Krona One', Times, serif;
+    }
+    
+}
+
+.row {
+    padding-left:30px
+}
+
+
+.img-fluid {
+        padding-bottom: 10px;
+}
+
+.column-title {
+    font-size: 1rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.column-text {
+    font-size: 0.75rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+.column-title-2 {
+    font-family: 'Krona One', Times, serif;
+    border-left: 20px;
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.column-date {
+    font-size: 0.75rem;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    border-left: 20px;
+}
+
+.column-text-2 {
+    font-size: 1rem;
+    border-left: 20px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px, 10px;
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
 // Import partials here
+
